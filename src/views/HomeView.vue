@@ -18,8 +18,8 @@
         {{ item.label }}
       </div>
       <video
-        :src="item.video"
-        class="absolute rounded-lg inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 transition-opacity duration-300"
+        :data-src="item.video"
+        class="lazy-video absolute rounded-lg inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 transition-opacity duration-300"
         muted
         loop
         disablePictureInPicture
@@ -32,6 +32,7 @@
 </template>
 
 <script setup>
+import { onMounted } from "vue";
 import { useRouter } from "vue-router";
 
 const router = useRouter();
@@ -87,6 +88,23 @@ const playVideo = (event) => {
 const pauseVideo = (event) => {
   event.target.pause();
 };
+
+onMounted(() => {
+  const lazyVideos = document.querySelectorAll('.lazy-video');
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const video = entry.target;
+        video.src = video.dataset.src;
+        observer.unobserve(video);
+      }
+    });
+  });
+
+  lazyVideos.forEach(video => {
+    observer.observe(video);
+  });
+});
 </script>
 
 <style scoped>
