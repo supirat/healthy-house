@@ -6,6 +6,7 @@ import HealthFoodNavigation from "./components/navigation/HealthFoodNav.vue";
 import ExerciseNavigation from "./components/navigation/ExerciseNav.vue";
 import ScheduleNavigation from "./components/navigation/ScheduleNav.vue";
 import AboutNavigation from "./components/navigation/AboutNav.vue";
+
 </script>
 
 <template>

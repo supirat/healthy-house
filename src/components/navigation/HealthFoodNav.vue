@@ -1,7 +1,14 @@
 <template>
   <div class="relative" ref="dropdown" @mouseleave="closeDropdown">
     <div class="cursor-pointer" @mouseover="openDropdown">
-      <NavLink> อาหาร/เครื่องดื่มสุขภาพ </NavLink>
+      <NavLink
+        :class="[
+          { 'bg-gradient-to-b from-brown-100 to-brown-200': isChildActive },
+          { 'bg-gradient-to-b from-brown-50 to-brown-100': !isChildActive }
+        ]"
+      >
+        อาหาร/เครื่องดื่มสุขภาพ
+      </NavLink>
     </div>
     <transition name="fade">
       <div v-if="isDropdownVisible" class="absolute py-2 rounded-b-lg flex-1">
@@ -36,6 +43,11 @@ export default {
       isDropdownVisible: false,
     };
   },
+  computed: {
+    isChildActive() {
+      return this.$route.path.startsWith("/health-food");
+    },
+  },
   methods: {
     openDropdown() {
       this.isDropdownVisible = true;
@@ -59,7 +71,8 @@ export default {
 </script>
 
 <style scoped>
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 0.5s;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {

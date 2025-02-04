@@ -102,8 +102,31 @@ const router = createRouter({
         },
         {
           path: "food",
-          name: "food",
-          component: () => import("@/views/health-food/FoodView.vue"),
+          children: [
+            {
+              path: "",
+              name: "food",
+              component: () => import("@/views/health-food/FoodView.vue"),
+            },
+            {
+              path: "clean-food",
+              name: "clean-food",
+              component: () =>
+                import("@/views/health-food/food/CleanFoodView.vue"),
+            },
+            {
+              path: "vegetarian-food",
+              name: "vegetarian-food",
+              component: () =>
+                import("@/views/health-food/food/VegetarianFoodView.vue"),
+            },
+            {
+              path: "vegan-food",
+              name: "vegan-food",
+              component: () =>
+                import("@/views/health-food/food/VeganFoodView.vue"),
+            },
+          ],
         },
         {
           path: "drinks",
