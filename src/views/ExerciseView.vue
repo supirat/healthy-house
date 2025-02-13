@@ -26,7 +26,7 @@
       <h3 class="text-lg font-semibold">7 คลิกออกกําลังกาย 30 นาที ลดได้ทุกสัดส่วน</h3>
     </div>
     <div class="bg-white shadow-md rounded-lg p-4">
-      <h3 class="text-lg font-semibold">ออกกําลังกาย 25 นาที หุ่นฟิ ต ไขมันลด แบบไม่ใช้อุปกรณ์</h3>
+      <h3 class="text-lg font-semibold">ออกกําลังกาย 25 นาที หุ่นฟิต ไขมันลด แบบไม่ใช้อุปกรณ์</h3>
     </div>
   </div>
 </template>

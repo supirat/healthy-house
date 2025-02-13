@@ -28,6 +28,7 @@
 </template>
 
 <script setup>
+import { getImageUrl } from "@/utils/image";
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 const router = useRouter();
@@ -35,7 +36,7 @@ const router = useRouter();
 const knowledgeItems = ref([
   {
     route: "exercise-mistakes",
-    image: "https://placehold.co/150",
+    image: getImageUrl("@/assets/images/Knowledge/ExerciseMistakesView.png"),
     title: "5 วิธีออกกําลังกายเพื่อลดนํ้าหนักผิด ๆ ที่คนมักไม่รู้ตัว",
     description:
       "รายละเอียดเกี่ยวกับวิธีการออกกำลังกายที่ไม่ถูกต้องและผลกระทบต่อสุขภาพ",
@@ -43,28 +44,28 @@ const knowledgeItems = ref([
   },
   {
     route: "colorful-vegetables",
-    image: "https://placehold.co/150",
+    image: getImageUrl("@/assets/images/Knowledge/ColorfulVegetablesView.jpg"),
     title: "มหัศจรรย์ของสีสันในผักผลไม้",
-    description: "ข้อมูลเกี่ยวกับประโยชน์ของผักและผลไม้ที่มีสีสันต่าง ๆ",
+    description: "ข้อมูลเกี่ยวกับประโยชน์ของผักและผลไม้ที่มีสีสันต่างๆ",
     colSpan: 1,
   },
   {
     route: "good-digestion",
-    image: "https://placehold.co/150",
+    image: getImageUrl("@/assets/images/Knowledge/GoodDigestionView.jpg"),
     title: "ขับถ่ายดี สุขภาพปัง",
     description: "เคล็ดลับและประโยชน์ของการขับถ่ายที่ดีต่อสุขภาพ",
     colSpan: 1,
   },
   {
     route: "hair-loss",
-    image: "https://placehold.co/150",
+    image: getImageUrl("@/assets/images/Knowledge/HairLossView.png"),
     title: "ผมร่วงเรื่องปกติหรือเปล่า ?",
     description: "ข้อมูลเกี่ยวกับสาเหตุและการดูแลรักษาผมร่วง",
     colSpan: 1,
   },
   {
     route: "sweet-eating",
-    image: "https://placehold.co/150",
+    image: getImageUrl("@/assets/images/Knowledge/SweetEatingView.jpg"),
     title: "กินหวาน อย่างเข้าใจ อ่อนหวานก็แข็งแรงได้",
     description: "คำแนะนำเกี่ยวกับการบริโภคน้ำตาลอย่างเหมาะสม",
     colSpan: 2,

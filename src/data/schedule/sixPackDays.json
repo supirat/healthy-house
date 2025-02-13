@@ -1,0 +1,272 @@
+[
+  {
+    "day": 1,
+    "crunches": 12,
+    "legRaises": 10,
+    "plank": 22,
+    "bicycleCrunches": 12,
+    "russianTwists": 12,
+    "mountainClimbers": 12
+  },
+  {
+    "day": 2,
+    "crunches": 14,
+    "legRaises": 12,
+    "plank": 24,
+    "bicycleCrunches": 14,
+    "russianTwists": 14,
+    "mountainClimbers": 14
+  },
+  {
+    "day": 3,
+    "crunches": 16,
+    "legRaises": 14,
+    "plank": 26,
+    "bicycleCrunches": 16,
+    "russianTwists": 16,
+    "mountainClimbers": 16
+  },
+  {
+    "day": 4,
+    "crunches": 18,
+    "legRaises": 16,
+    "plank": 28,
+    "bicycleCrunches": 18,
+    "russianTwists": 18,
+    "mountainClimbers": 18
+  },
+  {
+    "day": 5,
+    "crunches": 20,
+    "legRaises": 18,
+    "plank": 30,
+    "bicycleCrunches": 20,
+    "russianTwists": 20,
+    "mountainClimbers": 20
+  },
+  {
+    "day": 6,
+    "crunches": 22,
+    "legRaises": 20,
+    "plank": 32,
+    "bicycleCrunches": 22,
+    "russianTwists": 22,
+    "mountainClimbers": 22
+  },
+  {
+    "day": 7,
+    "crunches": 24,
+    "legRaises": 22,
+    "plank": 34,
+    "bicycleCrunches": 24,
+    "russianTwists": 24,
+    "mountainClimbers": 24
+  },
+  {
+    "day": 8,
+    "crunches": 26,
+    "legRaises": 24,
+    "plank": 36,
+    "bicycleCrunches": 26,
+    "russianTwists": 26,
+    "mountainClimbers": 26
+  },
+  {
+    "day": 9,
+    "crunches": 28,
+    "legRaises": 26,
+    "plank": 38,
+    "bicycleCrunches": 28,
+    "russianTwists": 28,
+    "mountainClimbers": 28
+  },
+  {
+    "day": 10,
+    "crunches": 30,
+    "legRaises": 28,
+    "plank": 40,
+    "bicycleCrunches": 30,
+    "russianTwists": 30,
+    "mountainClimbers": 30
+  },
+  {
+    "day": 11,
+    "crunches": 32,
+    "legRaises": 30,
+    "plank": 42,
+    "bicycleCrunches": 32,
+    "russianTwists": 32,
+    "mountainClimbers": 32
+  },
+  {
+    "day": 12,
+    "crunches": 34,
+    "legRaises": 32,
+    "plank": 44,
+    "bicycleCrunches": 34,
+    "russianTwists": 34,
+    "mountainClimbers": 34
+  },
+  {
+    "day": 13,
+    "crunches": 36,
+    "legRaises": 34,
+    "plank": 46,
+    "bicycleCrunches": 36,
+    "russianTwists": 36,
+    "mountainClimbers": 36
+  },
+  {
+    "day": 14,
+    "crunches": 38,
+    "legRaises": 36,
+    "plank": 48,
+    "bicycleCrunches": 38,
+    "russianTwists": 38,
+    "mountainClimbers": 38
+  },
+  {
+    "day": 15,
+    "crunches": 40,
+    "legRaises": 38,
+    "plank": 50,
+    "bicycleCrunches": 40,
+    "russianTwists": 40,
+    "mountainClimbers": 40
+  },
+  {
+    "day": 16,
+    "crunches": 42,
+    "legRaises": 40,
+    "plank": 52,
+    "bicycleCrunches": 42,
+    "russianTwists": 42,
+    "mountainClimbers": 42
+  },
+  {
+    "day": 17,
+    "crunches": 44,
+    "legRaises": 42,
+    "plank": 54,
+    "bicycleCrunches": 44,
+    "russianTwists": 44,
+    "mountainClimbers": 44
+  },
+  {
+    "day": 18,
+    "crunches": 46,
+    "legRaises": 44,
+    "plank": 56,
+    "bicycleCrunches": 46,
+    "russianTwists": 46,
+    "mountainClimbers": 46
+  },
+  {
+    "day": 19,
+    "crunches": 48,
+    "legRaises": 46,
+    "plank": 58,
+    "bicycleCrunches": 48,
+    "russianTwists": 48,
+    "mountainClimbers": 48
+  },
+  {
+    "day": 20,
+    "crunches": 50,
+    "legRaises": 48,
+    "plank": 60,
+    "bicycleCrunches": 50,
+    "russianTwists": 50,
+    "mountainClimbers": 50
+  },
+  {
+    "day": 21,
+    "crunches": 52,
+    "legRaises": 50,
+    "plank": 62,
+    "bicycleCrunches": 52,
+    "russianTwists": 52,
+    "mountainClimbers": 52
+  },
+  {
+    "day": 22,
+    "crunches": 54,
+    "legRaises": 52,
+    "plank": 64,
+    "bicycleCrunches": 54,
+    "russianTwists": 54,
+    "mountainClimbers": 54
+  },
+  {
+    "day": 23,
+    "crunches": 56,
+    "legRaises": 54,
+    "plank": 66,
+    "bicycleCrunches": 56,
+    "russianTwists": 56,
+    "mountainClimbers": 56
+  },
+  {
+    "day": 24,
+    "crunches": 58,
+    "legRaises": 56,
+    "plank": 68,
+    "bicycleCrunches": 58,
+    "russianTwists": 58,
+    "mountainClimbers": 58
+  },
+  {
+    "day": 25,
+    "crunches": 60,
+    "legRaises": 58,
+    "plank": 70,
+    "bicycleCrunches": 60,
+    "russianTwists": 60,
+    "mountainClimbers": 60
+  },
+  {
+    "day": 26,
+    "crunches": 62,
+    "legRaises": 60,
+    "plank": 72,
+    "bicycleCrunches": 62,
+    "russianTwists": 62,
+    "mountainClimbers": 62
+  },
+  {
+    "day": 27,
+    "crunches": 64,
+    "legRaises": 62,
+    "plank": 74,
+    "bicycleCrunches": 64,
+    "russianTwists": 64,
+    "mountainClimbers": 64
+  },
+  {
+    "day": 28,
+    "crunches": 66,
+    "legRaises": 64,
+    "plank": 76,
+    "bicycleCrunches": 66,
+    "russianTwists": 66,
+    "mountainClimbers": 66
+  },
+  {
+    "day": 29,
+    "crunches": 68,
+    "legRaises": 66,
+    "plank": 78,
+    "bicycleCrunches": 68,
+    "russianTwists": 68,
+    "mountainClimbers": 68
+  },
+  {
+    "day": 30,
+    "crunches": 70,
+    "legRaises": 68,
+    "plank": 80,
+    "bicycleCrunches": 70,
+    "russianTwists": 70,
+    "mountainClimbers": 70
+  }
+]

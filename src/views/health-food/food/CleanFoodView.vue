@@ -1,42 +1,64 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { getImageUrl } from "@/utils/image";
+import { ref } from "vue";
 
 const foods = ref([
   {
     name: "สลัดอกไก่ไข่ต้ม",
-    image: new URL("@/assets/images/Food/อาหารคลีน/1. สลัดอกไก่ไข่ต้ม.png", import.meta.url).href,
+    image: getImageUrl("@/assets/images/Food/อาหารคลีน/1. สลัดอกไก่ไข่ต้ม.png"),
+    to: "clean-food/สลัดอกไก่ไข่ต้ม",
   },
   {
     name: "ข้าวกล้องอกไก่ผัดพริกหวาน",
-    image: new URL("@/assets/images/Food/อาหารคลีน/2. ข้าวกล้องอกไก่ผัดพริกหวาน.png", import.meta.url).href,
+    image: getImageUrl(
+      "@/assets/images/Food/อาหารคลีน/2. ข้าวกล้องอกไก่ผัดพริกหวาน.png"
+    ),
+    to: "clean-food/ข้าวกล้องอกไก่ผัดพริกหวาน",
   },
   {
     name: "ปลาแซลมอนย่างกับผักนึ่ง",
-    image: new URL("@/assets/images/Food/อาหารคลีน/3. ปลาแซลมอนย่างกับผักนึ่ง.png", import.meta.url).href,
+    image: getImageUrl(
+      "@/assets/images/Food/อาหารคลีน/3. ปลาแซลมอนย่างกับผักนึ่ง.png"
+    ),
+    to: "clean-food/ปลาแซลมอนย่างกับผักนึ่ง",
   },
   {
     name: "ไข่ตุ๋นเต้าหู้",
-    image: new URL("@/assets/images/Food/อาหารคลีน/4. ไข่ตุ๋นเต้าหู้.png", import.meta.url).href,
+    image: getImageUrl("@/assets/images/Food/อาหารคลีน/4. ไข่ตุ๋นเต้าหู้.png"),
+    to: "clean-food/ไข่ตุ๋นเต้าหู้",
   },
   {
     name: "สุกี้น้ำอกไก่",
-    image: new URL("@/assets/images/Food/อาหารคลีน/5. สุกี้น้ำอกไก่.png", import.meta.url).href,
+    image: getImageUrl("@/assets/images/Food/อาหารคลีน/5. สุกี้น้ำอกไก่.png"),
+    to: "clean-food/สุกี้น้ำอกไก่",
   },
   {
     name: "ข้าวกล้องหน้าหมูย่างงา",
-    image: new URL("@/assets/images/Food/อาหารคลีน/6. ข้าวกล้องหน้าหมูย่างงา.png", import.meta.url).href,
+    image: getImageUrl(
+      "@/assets/images/Food/อาหารคลีน/6. ข้าวกล้องหน้าหมูย่างงา.png"
+    ),
+    to: "clean-food/ข้าวกล้องหน้าหมูย่างงา",
   },
   {
     name: "ต้มจืดเต้าหู้หมูสับ",
-    image: new URL("@/assets/images/Food/อาหารคลีน/7. ต้มจืดเต้าหู้หมูสับ.png", import.meta.url).href,
+    image: getImageUrl(
+      "@/assets/images/Food/อาหารคลีน/7. ต้มจืดเต้าหู้หมูสับ.png"
+    ),
+    to: "clean-food/ต้มจืดเต้าหู้หมูสับ",
   },
   {
     name: "ขนมปังโฮลวีตอะโวคาโดไข่ดาว",
-    image: new URL("@/assets/images/Food/อาหารคลีน/8. ขนมปังโฮลวีตอะโวคาโดไข่ดาว.png", import.meta.url).href,
+    image: getImageUrl(
+      "@/assets/images/Food/อาหารคลีน/8. ขนมปังโฮลวีตอะโวคาโดไข่ดาว.png"
+    ),
+    to: "clean-food/ขนมปังโฮลวีตอะโวคาโดไข่ดาว",
   },
   {
     name: "โยเกิร์ตกับผลไม้และธัญพืช",
-    image: new URL("@/assets/images/Food/อาหารคลีน/9. โยเกิร์ตกับผลไม้และธัญพืช.png", import.meta.url).href,
+    image: getImageUrl(
+      "@/assets/images/Food/อาหารคลีน/9. โยเกิร์ตกับผลไม้และธัญพืช.png"
+    ),
+    to: "clean-food/โยเกิร์ตกับผลไม้และธัญพืช",
   },
 ]);
 </script>
@@ -50,6 +72,7 @@ const foods = ref([
         v-for="(food, index) in foods"
         :key="index"
         class="bg-white shadow-md rounded-lg overflow-hidden"
+        @click="$router.push(food.to)"
       >
         <img :src="food.image" alt="food" class="w-full h-48 object-cover" />
         <div class="p-4">

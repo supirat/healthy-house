@@ -1,0 +1,302 @@
+[
+  {
+    "day": 1,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 2,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 3,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 4,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 5,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 6,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 7,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 8,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 9,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 10,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 11,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 12,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 13,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 14,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 15,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 16,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 17,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 18,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 19,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 20,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 21,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 22,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 23,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 24,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 25,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 26,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 27,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 28,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 29,
+    "workoutType": "Upper Body",
+    "exercise1": "Dumbbell Shoulder Press",
+    "exercise2": "Bicep Curls",
+    "exercise3": "Tricep Dips",
+    "exercise4": "Push-ups",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  },
+  {
+    "day": 30,
+    "workoutType": "Lower Body",
+    "exercise1": "Squats",
+    "exercise2": "Lunges",
+    "exercise3": "Deadlifts",
+    "exercise4": "Glute Bridges",
+    "repsPerSet": "12-15",
+    "restSeconds": "30-45"
+  }
+]

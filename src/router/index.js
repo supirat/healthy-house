@@ -126,6 +126,11 @@ const router = createRouter({
               component: () =>
                 import("@/views/health-food/food/VeganFoodView.vue"),
             },
+            {
+              path: ":category/:name",
+              name: "food-menu-receipt",
+              component: () => import("@/views/health-food/food/MenuReceiptView.vue"),
+            },
           ],
         },
         {
