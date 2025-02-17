@@ -1,3 +1,4 @@
 export function getImageUrl(path) {
-  return new URL(`${path.replace("@", "/src")}`, import.meta.url).href;
+  const formattedPath = path.replace("@/", "/src/").split('/').map(encodeURIComponent).join('/');
+  return new URL(formattedPath, import.meta.url).href;
 }
