@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -129,21 +130,126 @@ const router = createRouter({
             {
               path: ":category/:name",
               name: "food-menu-receipt",
-              component: () => import("@/views/health-food/food/MenuReceiptView.vue"),
+              component: () =>
+                import("@/views/health-food/food/MenuReceiptView.vue"),
             },
           ],
         },
         {
           path: "drinks",
-          name: "drinks",
-          component: () => import("@/views/health-food/DrinksView.vue"),
+          // component: () => import("@/views/health-food/DrinksView.vue"),
+          children: [
+            {
+              path: "",
+              name: "drinks",
+              component: () =>
+                import("@/views/health-food/drink/DrinksView.vue"),
+            },
+            {
+              path: "water",
+              name: "water",
+              component: () =>
+                import("@/views/health-food/drink/WaterView.vue"),
+            },
+            {
+              path: "Fresh",
+              name: "Fresh",
+              component: () =>
+                import("@/views/health-food/drink/FreshView.vue"),
+            },
+            {
+              path: "Carrot",
+              name: "Carrot",
+              component: () =>
+                import("@/views/health-food/drink/CarrotView.vue"),
+            },
+            {
+              path: "Tomato",
+              name: "Tomato",
+              component: () =>
+                import("@/views/health-food/drink/TomatoView.vue"),
+            },
+            {
+              path: "Apple",
+              name: "Apple",
+              component: () =>
+                import("@/views/health-food/drink/AppleView.vue"),
+            },
+            {
+              path: "Pear",
+              name: "Pear",
+              component: () => import("@/views/health-food/drink/PearView.vue"),
+            },
+            {
+              path: "Tea",
+              name: "Tea",
+              component: () => import("@/views/health-food/drink/TeaView.vue"),
+            },
+            {
+              path: "Milk",
+              name: "Milk",
+              component: () => import("@/views/health-food/drink/MilkView.vue"),
+            },
+            {
+              path: "Yogurt",
+              name: "Yogurt",
+              component: () =>
+                import("@/views/health-food/drink/YogurtView.vue"),
+            },
+          ],
         },
       ],
     },
     {
       path: "/exercise",
-      name: "exercise",
-      component: () => import("@/views/ExerciseView.vue"),
+      // component: () => import("@/views/Exercise/ExerciseView"),
+      children: [
+        {
+          path: "",
+          name: "exercise",
+          component: () => import("@/views/Exercise/ExerciseView.vue"),
+        },
+        {
+          path: "Workout",
+          name: "Workout",
+          component: () => import("@/views/Exercise/WorkoutView.vue"),
+        },
+        {
+          path: "30-Minute",
+          name: "30-Minute",
+          component: () => import("@/views/Exercise/30-MinuteView.vue"),
+        },
+        {
+          path: "Standing",
+          name: "Standing",
+          component: () => import("@/views/Exercise/StandingView.vue"),
+        },
+        {
+          path: "Beginner",
+          name: "Beginner",
+          component: () => import("@/views/Exercise/BeginnerView.vue"),
+        },
+        {
+          path: "HIIT",
+          name: "HIIT",
+          component: () => import("@/views/Exercise/HIITView.vue"),
+        },
+        {
+          path: "20-Minute",
+          name: "20-Minute",
+          component: () => import("@/views/Exercise/20-MinuteView.vue"),
+        },
+        {
+          path: "WorkoutVideos",
+          name: "WorkoutVideos",
+          component: () => import("@/views/Exercise/WorkoutVideosView.vue"),
+        },
+        {
+          path: "25-Minute",
+          name: "25-Minute",
+          component: () => import("@/views/Exercise/25-MinuteView.vue"),
+        }
+      ],
     },
     {
       path: "/schedule",
