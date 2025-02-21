@@ -46,7 +46,7 @@ export default {
           path: "/Exercise/20-Minute",
         },
         {
-          name: ["7 คลิกออกกําลังกาย 30 นาที ลดได้ทุกสัดส่วน","Workout Videos – 30 Minutes to Tone Your Entire Body"],
+          name: ["คลิกออกกําลังกาย 30 นาที ลดได้ทุกสัดส่วน","Workout Videos – 30 Minutes to Tone Your Entire Body"],
           path: "/Exercise/WorkoutVideos",
         },
         {
